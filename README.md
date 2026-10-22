@@ -122,7 +122,8 @@ stm32f103-learning-board/
 ├─ LICENSE
 └─ hardware/
    ├─ README.md                         # 如何用专业版打开、如何出 Gerber
-   └─ ProPrj_STM32学习板_2026-09-11.epro
+   ├─ ProPrj_STM32学习板_2026-09-11.epro
+   └─ stm32rct6开发板.epro              # 2026-10-22，工程名「教学」
 ```
 
 ---
@@ -131,7 +132,8 @@ stm32f103-learning-board/
 
 1. 下载 [嘉立创 EDA 专业版](https://lceda.cn/page/download)（标准版打不开 `.epro`）。
 2. **文件 → 导入 → EDA 专业版工程**，选择  
-   `hardware/ProPrj_STM32学习板_2026-09-11.epro`
+   `hardware/ProPrj_STM32学习板_2026-09-11.epro`  
+   2026-10-22 的另一份工程在 `hardware/stm32rct6开发板.epro`（工程名「教学」）。
 3. 左侧看到原理图三页和 PCB。
 
 导出生产文件、下单步骤见 [`hardware/README.md`](hardware/README.md)。
